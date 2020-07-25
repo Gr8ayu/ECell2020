@@ -31,6 +31,14 @@ body {
     margin: 0;
     min-height: 100%;
 }
+body{
+    overflow: auto;
+}
+
+body::-webkit-scrollbar
+{
+    display: none;
+}
 article,
 aside,
 details,
@@ -1899,7 +1907,7 @@ a {
 .body {
     padding-top: 0;
     padding-bottom: 40px;
-    background-color: #1e2022;
+    background-color: #000000;
     background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5da86ea7050f21f8e7d448da_pixel-pattern.png);
     background-position: 0 0;
     background-size: 20px;
@@ -2066,10 +2074,11 @@ a {
     text-indent: -999em;
 }
 .hero-logo.footer-logo {
-    width: 41px;
-    height: 45px;
-    margin-bottom: 10px;
+    width: 5px;
+    height: 5px;
+    margin-bottom: 0px;
     margin-right: 38%;
+    visibility: hidden;
 }
 .inverse {
     color: #fff;

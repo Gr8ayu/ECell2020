@@ -2059,9 +2059,9 @@ a {
     justify-content: flex-end;
 }
 .hero-logo {
-    width: 400px;
-    height: 200px;
-    margin-bottom: -50px;
+    width: 700px;
+    height: 500px;
+    margin-bottom: -35%;
     margin-left: 6px;
     background-image: url(logo.png);
 }
@@ -6327,9 +6327,9 @@ a {
         flex-wrap: wrap;
     }
     .hero-logo {
-        width: 140px;
-        height: 60px;
-        margin-bottom: 20%;
+        width: 350px;
+        height: 150px;
+        margin-bottom: 0%;
     }
     .hero-logo.footer-logo {
         margin-bottom: 20px;
@@ -7025,9 +7025,9 @@ a {
         flex-wrap: wrap;
     }
     .hero-logo {
-        width: 140px;
-        height: 60px;
-        margin-bottom: 20%;
+        width: 300px;
+        height: 140px;
+        margin-bottom: -0%;
     }
     .hero-logo.footer-logo {
         margin-bottom: 20px;

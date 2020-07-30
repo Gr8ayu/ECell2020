@@ -2065,12 +2065,12 @@ a {
     width: 450px;
     height: 200px;
     margin-bottom: 20px;
-    margin-left: 38%;
+    margin-left: 30%;
     background-image: url('about_images/ecelllogowhite.png');
 }
 .hero-logo-mini,
 .hero-logo-mini.w--current {
-    background-image: url('about_images/ecell_logo/logo.png');
+    background-image: url('about_images/ecelllogowhite.png');
     text-indent: -999em;
 }
 .hero-logo.footer-logo {

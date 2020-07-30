@@ -13,6 +13,7 @@ td,
 th {
     padding: 0;
 }
+
 .w-clearfix:after,
 .w-container:after,
 .w-embed:after,
@@ -6979,6 +6980,7 @@ a {
         -ms-grid-row: 1;
         grid-row-start: 1;
     }
+    
 }
 @font-face {
     font-family: "Googlesans";

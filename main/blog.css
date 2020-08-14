@@ -2090,7 +2090,7 @@ a {
     height: 114px;
     margin-bottom: 20px;
     margin-left: 6px;
-    background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5dab56ca06d07725c1dd05f5_kp-logo.svg);
+    background-image: url('about_images/ecelllogowhite.png');
 }
 .hero-logo-mini,
 .hero-logo-mini.w--current {
@@ -2213,7 +2213,7 @@ a {
     position: fixed;
     left: 25px;
     z-index: 1006;
-    background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5da885a7fdbcf60be23e81ff_kreativepro-logo-mini.svg);
+    background-image: url('about_images/ecelllogowhite.png');
 }
 .keyword,
 .mb-10,
@@ -2670,15 +2670,15 @@ a {
     opacity: 0.14;
 }
 .featured-video.bg-w {
-    background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5e7297cf74201f53b2d94a21_letter-w-white.svg), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000);
+    /* background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5e7297cf74201f53b2d94a21_letter-w-white.svg), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000); */
     background-size: 800px, auto;
 }
 .featured-video.bg-v {
-    background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5e72984774201feec8d94ae3_v-letter.svg), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000);
+    /* background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5e72984774201feec8d94ae3_v-letter.svg), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000); */
     background-size: 550px, auto;
 }
 .featured-video.bg-p {
-    background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5e72986bae9e254f6c7f9e56_p-letter.svg), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000);
+    /* background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5e72986bae9e254f6c7f9e56_p-letter.svg), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000); */
     background-size: 450px, auto;
 }
 .featured-video.box-on-top {
@@ -3075,7 +3075,7 @@ a {
     display: inline-block;
     width: 280px;
     height: 60px;
-    background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5e6f0c150f8bc38210bc0140_studio-keyword.png);
+    /* background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5e6f0c150f8bc38210bc0140_studio-keyword.png); */
     background-position: 0 0;
     background-repeat: no-repeat;
     text-indent: -999em;
@@ -4544,7 +4544,7 @@ a {
     display: block;
     width: 180px;
     height: 30px;
-    background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5eab6aa7289c34f060f85b71_kp-label.svg);
+    /* background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5eab6aa7289c34f060f85b71_kp-label.svg); */
     background-size: contain;
     text-indent: -999em;
 }

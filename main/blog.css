@@ -2674,7 +2674,7 @@ a {
     background-size: 800px, auto;
 }
 .featured-video.bg-v {
-    /* background-image: url(https://uploads-ssl.webflow.com/5da865df3e5488677ddc8818/5e72984774201feec8d94ae3_v-letter.svg), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000); */
+    background-image: url(event_images/e2.png), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000); */
     background-size: 550px, auto;
 }
 .featured-video.bg-p {

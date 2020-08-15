@@ -2664,18 +2664,17 @@ a {
 .featured-video.bg-p,
 .featured-video.bg-v,
 .featured-video.bg-w {
-    height: 80vh;
+    height: 100vh;
     background-position: 50% 50%, 0 0;
     background-repeat: no-repeat, repeat;
     opacity: 0.14;
 }
 .featured-video.bg-w {
-    background-image: url(event_images/e2.png), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000); */
+    background-image: url(event_images/e2.png), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000); 
     background-size: 800px, auto;
-    margin-bottom: 2%;
 }
 .featured-video.bg-v {
-    background-image: url(event_images/e2.png), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000); */
+    background-image: url(event_images/e2.png), radial-gradient(circle closest-corner at 50% 0, #e5e5e5, #000); 
     background-size: 800px, auto;
 }
 .featured-video.bg-p {

@@ -2664,7 +2664,7 @@ a {
 .featured-video.bg-p,
 .featured-video.bg-v,
 .featured-video.bg-w {
-    height: 100vh;
+    height: 80vh;
     background-position: 50% 50%, 0 0;
     background-repeat: no-repeat, repeat;
     opacity: 0.14;

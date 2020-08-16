@@ -4404,12 +4404,13 @@ a {
     right: 0;
     bottom: 0;
     width: 2px;
-    height: 90%;
+    /* height: 83%; */
+    height: 83%;
     background-color: hsla(0, 0%, 100%, 0.25);
 }
 .pathway-bar.scroll {
     z-index: 1;
-    height: 745px;
+    height: 230px;
     background-color: #00ffce;
 }
 .pathway-bar.scroll._02 {

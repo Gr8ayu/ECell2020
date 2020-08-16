@@ -4404,7 +4404,7 @@ a {
     right: 0;
     bottom: 0;
     width: 2px;
-    height: 89%;
+    height: 90%;
     background-color: hsla(0, 0%, 100%, 0.25);
 }
 .pathway-bar.scroll {
@@ -4413,19 +4413,24 @@ a {
     background-color: #00ffce;
 }
 .pathway-bar.scroll._02 {
-    top: 860px;
+    /* top: 860px; */
+    top: 740px;
 }
 .pathway-bar.scroll._04 {
-    top: 45%;
+    /* top: 45%; */
+    top: 41%;
 }
 .pathway-bar.scroll._03 {
-    top: 30%;
+    /* top: 30%; */
+    top: 28%;
 }
 .pathway-bar.scroll._06 {
-    top: 75%;
+    /* top: 75%; */
+    top: 69%;
 }
 .pathway-bar.scroll._05 {
-    top: 60%;
+    /* top: 60%; */
+    top: 55%;
 }
 .certificate-mask {
     left: 50%;

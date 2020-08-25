@@ -2670,7 +2670,7 @@ a {
     opacity: 0.35;
 }
 .featured-video.bg-w {
-    background-image: url(event_images/e.png);
+    background-image: url(event_images/e.png); //awesome
     background-size: 800px, auto;
 }
 .featured-video.bg-v {

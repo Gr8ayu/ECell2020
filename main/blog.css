@@ -7643,7 +7643,7 @@ a {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+/* .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -7656,7 +7656,7 @@ a {
 
 .active, .dot:hover {
   background-color: #717171;
-}
+} */
 
 /* Fading animation */
 .fade {

@@ -7622,7 +7622,7 @@ a {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* Caption text
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -7631,7 +7631,7 @@ a {
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
+} */
 
 /* Number text (1/3 etc) */
 .numbertext {

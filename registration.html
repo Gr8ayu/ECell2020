@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -131,6 +133,7 @@
 
         .main-timeline .description {
             font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             color: #fff;
             line-height: 24px;
             /* margin: 0; */
@@ -305,7 +308,7 @@
                 display: none;
             }
 
-            .xuberance{
+            .xuberance {
                 margin-top: 5px;
             }
 
@@ -481,11 +484,11 @@
         }
 
         /* .experiment { */
-            /* box-shadow: 5px 6px 18px 18px rgba(0, 0, 0, 0.22), 5px 6px 18px 18px rgba(0, 0, 0, 0.22); */
-            /* box-shadow: -7px 0px 20px 13px rgba(0, 0, 0, 0.22), -4px -1px 20px 9px rgba(0, 0, 0, 0.22); */
-            /* box-shadow: -4px -1px 20px 9px rgba(0, 0, 0, 0.22); */
-            /* box-shadow: 0 -1px 10px rgba(0, 0, 0, .7); */
-            
+        /* box-shadow: 5px 6px 18px 18px rgba(0, 0, 0, 0.22), 5px 6px 18px 18px rgba(0, 0, 0, 0.22); */
+        /* box-shadow: -7px 0px 20px 13px rgba(0, 0, 0, 0.22), -4px -1px 20px 9px rgba(0, 0, 0, 0.22); */
+        /* box-shadow: -4px -1px 20px 9px rgba(0, 0, 0, 0.22); */
+        /* box-shadow: 0 -1px 10px rgba(0, 0, 0, .7); */
+
         /* } */
 
         .experiment:hover {
@@ -591,12 +594,13 @@
                     transparent,
                     rgba(146, 148, 248, 0.4),
                     transparent); */
-            background: linear-gradient(120deg,transparent, rgba(255, 233, 163, 0.4),transparent);
+            background: linear-gradient(120deg, transparent, rgba(255, 233, 163, 0.4), transparent);
             transition: all 650ms;
             text-decoration: none;
             list-style: none;
         }
-        .btn-link:hover{
+
+        .btn-link:hover {
             text-decoration: none;
         }
 
@@ -605,6 +609,13 @@
             list-style: none;
             left: 100%;
             list-style: none;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .reveal {
+                height: 210px;
+                width: 98vw;
+            }
         }
     </style>
 
@@ -624,7 +635,7 @@
                 </div> -->
                 <div class="xuberance" style="margin-right: 14px;
                 margin-top: 16px;">
-                    <img height="50px" width="50px"  src="xuberance.png" alt="">
+                    <img height="50px" width="50px" src="xuberance.png" alt="">
                 </div>
 
             </div>
@@ -673,25 +684,24 @@
                                     margin-left: 5px;
                                     background-color: #f4a24c;
                                     margin-right: -1px;">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoEPvvuhwVmeQk5SflMhusiojB5ud58g59Lw&usqp=CAU"
+                                        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoEPvvuhwVmeQk5SflMhusiojB5ud58g59Lw&usqp=CAU"
                                             alt=""
-                                            style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;">
-                                        <h3 style="color: #fff; margin-left: 15px;">Name of the Speaker</h3>
+                                            style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;"> -->
+                                        <h3 style="color: #fff; margin-left: 15px; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Innovate under 50 Hours</h3>
+                                        </h3>
                                     </div>
 
                                     <p class="description">
-
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus,
-                                        mollis
-                                        rhoncus felis. Nulla consectetur pretium lacinia. Morbi pharetra, quam non
-                                        commodo
-                                        pulvinar, dui diam laoreet purus, vitae commodo ipsum lorem nec lacus. Etiam et
-                                        malesuada dolor. Integer consequat mauris in orci lobortis, non dictum sem
-                                        pharetra.
-                                        Donec ut lacus enim. Sed tempor interdum elementum.
+                                        Innovation under 50 hours" Hackathon in collaboration with Young Indians, an
+                                        integral part of CII (Confederation of Indian Industry), is a 50-hour hackathon
+                                        where you directly work with top companies for 50 hours and solve a complex
+                                        industry problem faced by them.
+                                        Register and get a chance to grab future incubation and work opportunities in
+                                        these esteemed companies.
                                     <div class="btn">
-                                        <a href="https://docs.google.com/forms/u/0/" target="_blank" class="btn-link"
-                                            style="background-color: #f4a24c; color: #fff; border: 3px;">Register here</a>
+                                        <a href="http://bit.ly/Ecell-Hackathon" target="_blank" class="btn-link"
+                                            style="background-color: #f4a24c; color: #fff; border: 3px;">Register
+                                            here</a>
                                     </div>
                                     </p>
                                 </div>
@@ -727,7 +737,7 @@
                                         style="height: 100px; width: 100px; border-radius: 100%; margin-top: -0.8rem;">
                                 </span> -->
                                 <div class="experiment">
-                                    <div
+                                    <!-- <div
                                     style="display: flex;
                                     align-items: center;
                                     margin-bottom: -15px;
@@ -738,22 +748,16 @@
                                             alt=""
                                             style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;">
                                         <h3 style="color: #fff; margin-left: 15px;">Name of the Speaker</h3>
-                                    </div>
-                                    <p class="description">
-
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus,
-                                        mollis
-                                        rhoncus felis. Nulla consectetur pretium lacinia. Morbi pharetra, quam non
-                                        commodo
-                                        pulvinar, dui diam laoreet purus, vitae commodo ipsum lorem nec lacus. Etiam et
-                                        malesuada dolor. Integer consequat mauris in orci lobortis, non dictum sem
-                                        pharetra.
-                                        Donec ut lacus enim. Sed tempor interdum elementum.
-                                    <div class="btn">
+                                    </div> -->
+                                    <!-- <p class="description" > -->
+                                    <img class="reveal" height="270px" width="470px"
+                                        src="pink.png" alt="">
+                                    <!-- <div class="btn">
                                         <a href="https://docs.google.com/forms/u/0/" target="_blank"
                                             class="btn-link" style="background-color: #f26f77; color: #fff; border: 3px;">Register here</a>
-                                    </div>
-                                    </p>
+                                    </div> -->
+
+                                    <!-- </p> -->
                                 </div>
                             </div>
                             <div class="year"><span>Session 2</span></div>
@@ -770,7 +774,7 @@
                                 <!-- <i class="icon fa fa-globe"></i> -->
 
                                 <div class="experiment">
-                                    <div
+                                    <!-- <div
                                     style="display: flex;
                                     align-items: center;
                                     margin-bottom: -15px;
@@ -781,8 +785,8 @@
                                             alt=""
                                             style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;">
                                         <h3 style="color: #fff; margin-left: 15px;">Name of the Speaker</h3>
-                                    </div>
-                                    <p class="description">
+                                    </div> -->
+                                    <!-- <p class="description">
 
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus,
                                         mollis
@@ -796,7 +800,9 @@
                                         <a href="https://docs.google.com/forms/u/0/" target="_blank"
                                             class="btn-link" style="background-color: #149cad; color: #fff; border: 3px;">Register here</a>
                                     </div>
-                                    </p>
+                                    </p> -->
+                                    <img class="reveal" height="270px" width="470px"
+                                        src="blue.png" alt="">
                                 </div>
                             </div>
                             <div class="year"><span>Session 3</span>
@@ -814,7 +820,7 @@
                                 <!-- <i class="icon fa fa-briefcase"></i> -->
 
                                 <div class="experiment">
-                                    <div
+                                    <!-- <div
                                     style="display: flex;
                                     align-items: center;
                                     margin-bottom: -15px;
@@ -825,8 +831,8 @@
                                             alt=""
                                             style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;">
                                         <h3 style="color: #fff; margin-left: 15px;">Name of the Speaker</h3>
-                                    </div>
-                                    <p class="description">
+                                    </div> -->
+                                    <!-- <p class="description">
 
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus,
                                         mollis
@@ -840,59 +846,22 @@
                                         <a href="https://docs.google.com/forms/u/0/" target="_blank"
                                             class="btn-link" style="background-color: #a6d050; color: #fff; border: 3px;">Register here</a>
                                     </div>
-                                    </p>
+                                    </p> -->
+                                    <img class="reveal" height="270px" width="470px"
+                                        src="green.png" alt="">
                                 </div>
                             </div>
                             <div class="year"><span>Session 4</span>
                             </div>
                         </div>
-                        <div class="timeline">
-                            <span class="timeline-icon">
-                                <time datetime="2020-10-20" class="icon">
-                                    <em>Tuesday</em>
-                                    <strong style="background-color:  #f4a24c;">October</strong>
-                                    <span>20</span>
-                                </time>
-                            </span>
-                            <div class="timeline-content">
-                                <!-- <i class="icon fa fa-briefcase"></i> -->
 
-                                <div class="experiment">
-                                    <div
-                                    style="display: flex;
-                                    align-items: center;
-                                    margin-bottom: -15px;
-                                    margin-left: 5px;
-                                    background-color: #f4a24c;
-                                    margin-right: -1px;">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoEPvvuhwVmeQk5SflMhusiojB5ud58g59Lw&usqp=CAU"
-                                            alt=""
-                                            style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;">
-                                        <h3 style="color: #fff; margin-left: 15px;">Name of the Speaker</h3>
-                                    </div>
-                                    <p class="description">
-
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus,
-                                        mollis
-                                        rhoncus felis. Nulla consectetur pretium lacinia. Morbi pharetra, quam non
-                                        commodo
-                                        pulvinar, dui diam laoreet purus, vitae commodo ipsum lorem nec lacus. Etiam et
-                                        malesuada dolor. Integer consequat mauris in orci lobortis, non dictum sem
-                                        pharetra.
-                                        Donec ut lacus enim. Sed tempor interdum elementum.
-                                    <div class="btn">
-                                        <a href="https://docs.google.com/forms/u/0/" target="_blank"
-                                            class="btn-link" style="background-color: #f4a24c; color: #fff; border: 3px;">Register here</a>
-                                    </div>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="year"><span>Session 5</span>
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </div>
+                <script>
+                    AOS.init({
+                        duration: 1200
+                    })
+                </script>
 </body>
 
 </html>

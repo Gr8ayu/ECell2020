@@ -21,8 +21,8 @@
     <link rel="icon" type="image/png" href="home_images/favicon7.png">
 
     <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&family=Quicksand:wght@500&family=Source+Serif+Pro&family=Zilla+Slab:wght@500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&family=Quicksand:wght@500&family=Source+Serif+Pro&family=Zilla+Slab:wght@500&display=swap');
         .demo {
             background: #1d2124;
         }
@@ -299,24 +299,45 @@
 
         }
 
+        .xuberance {
+            margin-top: 15px;
+            margin-right: 20px;
+        }
+
+        .container2 {
+            display: none;
+        }
+
         @keyframes textclip {
             to {
                 background-position: 200% center;
             }
         }
-        @media only screen and (max-width: 1024px) and (min-width: 768px;){
-            
+
+        @media only screen and (max-width: 1200px) and (min-width: 1000px) {
+            .reveal {
+                /* height: 168px;
+                width: 265px; */
+                height: 270px;
+                width: 470px;
+                padding-right: 94px;
+            }
         }
 
         @media only screen and (max-width: 767px) {
+            .r_heading {
+                font-size: 47px;
+            }
 
             .elogo {
                 display: none;
             }
 
-            .xuberance {
-                margin-top: 5px;
+            .reveal {
+                height: 210px;
+                width: 98vw;
             }
+
 
             .small_image_container {
                 display: flex;
@@ -328,9 +349,16 @@
             }
 
             .elogo2 {
-                height: 62px;
-                width: 52px;
-                margin-top: -82px;
+                height: 57px;
+                width: 46px;
+                margin-top: -94px;
+                margin-left: 5px;
+            }
+
+            .xuberance {
+                height: 56px;
+                width: 48px;
+                padding-top: 12px;
             }
 
             .filter {
@@ -437,15 +465,34 @@
             } */
         }
 
+        @media only screen and (min-width: 768px) and (max-width: 1000px) {
+            .reveal {
+                height: 357px;
+                width: 364px;
+                padding-right: 98px;
+            }
+        }
+
+        @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+            .reveal {
+                height: 270px;
+                width: 470px;
+                /* padding-right: 98px; */
+            }
+        }
+
         .filter {
             -webkit-filter: brightness(0) invert(1);
             filter: brightness(0) invert(1);
             /* height: 120px;
             width: 326px; */
-            height: 56px;
-            width: 164px;
+            /* height: 56px;
+            width: 164px; */
+            height: 60px;
+            width: 166px;
             margin-left: 10px;
             margin-right: 18px;
+            margin-top: 3px;
         }
 
         .image-container {
@@ -496,6 +543,7 @@
         /* box-shadow: 0 -1px 10px rgba(0, 0, 0, .7); */
 
         /* } */
+
 
         .experiment:hover {
             transform: scale(1.03, 1.03);
@@ -567,7 +615,7 @@
         }
 
         time.icon span {
-            font-size: 35px;
+            font-size: 26px;
             letter-spacing: -0.05em;
             /* padding-top: 0.8em; */
             padding-top: 6px;
@@ -617,12 +665,17 @@
             list-style: none;
         }
 
-        @media only screen and (max-width: 768px) {
+        /* @media only screen and (max-width: 768px) {
             .reveal {
                 height: 210px;
                 width: 98vw;
             }
-        }
+        } */
+
+        /* .reveal{
+            height: 270px;
+            width: 470px;
+        } */
     </style>
 
 
@@ -636,12 +689,9 @@
                 <div>
                     <img src="EcellLogoBlack.png" alt="" class="filter elogo">
                 </div>
-                <!-- <div>
-                    <img src="../Question_dialog_box/images/xuberance.png" alt="" class="filter elogo">
-                </div> -->
-                <div class="xuberance" style="margin-right: 14px;
-                margin-top: 16px;">
-                    <img height="50px" width="50px" src="xuberance.png" alt="">
+
+                <div class="xuberance">
+                    <img height="40px" width="43px" src="xuberance.png" alt="">
                 </div>
 
             </div>
@@ -652,9 +702,7 @@
                 <div>
                     <img src="ecelllogowhite.png" alt="" class="elogo2">
                 </div>
-                <!-- <div>
-                    <img src="../Question_dialog_box/images/ecelllogowhite.png" alt="" class="elogo2">
-                </div> -->
+
             </div>
         </nav>
         <header>
@@ -676,14 +724,7 @@
                                 </time>
                             </span>
                             <div class="timeline-content">
-                                <!-- <i class="icon fa fa-globe"></i> -->
-                                <!-- <time datetime="2020-10-20" class="icon">
-                                    <em>Tuesday</em>
-                                    <strong>October</strong>
-                                    <span>20</span>
-                                </time> -->
-
-                                <div class="experiment">
+                                <div class="experiment" data-aos="flip-up">
                                     <div style="display: flex;
                                     align-items: center;
                                     margin-bottom: -15px;
@@ -693,7 +734,9 @@
                                         <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoEPvvuhwVmeQk5SflMhusiojB5ud58g59Lw&usqp=CAU"
                                             alt=""
                                             style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;"> -->
-                                        <h3 style="color: #fff; margin-left: 15px; margin-bottom: 4%; text-align: center; font-family: 'Quicksand', sans-serif; font-weight: bold;">Innovate under 50 Hours</h3>
+                                        <h3
+                                            style="color: #fff; margin-left: 15px; margin-bottom: 4%; text-align: center; font-family: 'Quicksand', sans-serif; font-weight: bold;">
+                                            Innovate under 50 Hours</h3>
                                         </h3>
                                     </div>
 
@@ -719,9 +762,7 @@
                         </div>
                         <div class="timeline">
                             <span class="timeline-icon">
-                                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoEPvvuhwVmeQk5SflMhusiojB5ud58g59Lw&usqp=CAU"
-                                    alt=""
-                                    style="height: 100px; width: 100px; border-radius: 100%; margin-top: -0.8rem;"> -->
+
                                 <time datetime="2020-10-20" class="icon">
                                     <em>Revealed</em>
                                     <strong style="background-color: #f26f77;">To</strong>
@@ -730,41 +771,13 @@
                                 </time>
                             </span>
                             <div class="timeline-content">
-                                <!-- <i class="icon fa fa-briefcase"></i> -->
-                                <!-- <time datetime="2014-09-21" class="icon" style="margin-top: 27px;">
-                                    <em>Wednesday</em>
-                                    <strong style="background-color: #f26f77; border-bottom: 1px dashed  #f8878f;
-                                    box-shadow: 0 2px 0  #fd8e96; ">October</strong>
-                                    <span>21</span>
-                                </time> -->
-                                <!-- <span class="timeline-icon">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoEPvvuhwVmeQk5SflMhusiojB5ud58g59Lw&usqp=CAU"
-                                        alt=""
-                                        style="height: 100px; width: 100px; border-radius: 100%; margin-top: -0.8rem;">
-                                </span> -->
-                                <div class="experiment">
-                                    <!-- <div
-                                    style="display: flex;
-                                    align-items: center;
-                                    margin-bottom: -15px;
-                                    margin-left: 5px;
-                                    background-color:#f26f77 ;
-                                    margin-right: -1px;">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoEPvvuhwVmeQk5SflMhusiojB5ud58g59Lw&usqp=CAU"
-                                            alt=""
-                                            style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;">
-                                        <h3 style="color: #fff; margin-left: 15px;">Name of the Speaker</h3>
-                                    </div> -->
-                                    <!-- <p class="description" > -->
-                                    <img class="reveal" height="270px" width="470px"
+                                <div class="experiment" data-aos="zoom-in" >
+                                    <div class="image_container">
+                                        <img class="reveal pink" width="470px" height="270px"
                                         src="pink.png" alt="">
-                                    <!-- <div class="btn">
-                                        <a href="https://docs.google.com/forms/u/0/" target="_blank"
-                                            class="btn-link" style="background-color: #f26f77; color: #fff; border: 3px;">Register here</a>
-                                    </div> -->
-
-                                    <!-- </p> -->
+                                    </div>
                                 </div>
+
                             </div>
                             <div class="year"><span>Event 2</span></div>
                         </div>
@@ -777,37 +790,9 @@
                                 </time>
                             </span>
                             <div class="timeline-content">
-                                <!-- <i class="icon fa fa-globe"></i> -->
+                                <div class="experiment" data-aos="fade-right">
 
-                                <div class="experiment">
-                                    <!-- <div
-                                    style="display: flex;
-                                    align-items: center;
-                                    margin-bottom: -15px;
-                                    margin-left: 5px;
-                                    background-color: #149cad ;
-                                    margin-right: -1px;">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoEPvvuhwVmeQk5SflMhusiojB5ud58g59Lw&usqp=CAU"
-                                            alt=""
-                                            style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;">
-                                        <h3 style="color: #fff; margin-left: 15px;">Name of the Speaker</h3>
-                                    </div> -->
-                                    <!-- <p class="description">
-
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus,
-                                        mollis
-                                        rhoncus felis. Nulla consectetur pretium lacinia. Morbi pharetra, quam non
-                                        commodo
-                                        pulvinar, dui diam laoreet purus, vitae commodo ipsum lorem nec lacus. Etiam et
-                                        malesuada dolor. Integer consequat mauris in orci lobortis, non dictum sem
-                                        pharetra.
-                                        Donec ut lacus enim. Sed tempor interdum elementum.
-                                    <div class="btn">
-                                        <a href="https://docs.google.com/forms/u/0/" target="_blank"
-                                            class="btn-link" style="background-color: #149cad; color: #fff; border: 3px;">Register here</a>
-                                    </div>
-                                    </p> -->
-                                    <img class="reveal" height="270px" width="470px"
+                                    <img id="blue" class="reveal" width="470px" height="270px"
                                         src="blue.png" alt="">
                                 </div>
                             </div>
@@ -823,37 +808,10 @@
                                 </time>
                             </span>
                             <div class="timeline-content">
-                                <!-- <i class="icon fa fa-briefcase"></i> -->
 
-                                <div class="experiment">
-                                    <!-- <div
-                                    style="display: flex;
-                                    align-items: center;
-                                    margin-bottom: -15px;
-                                    margin-left: 5px;
-                                    background-color: #a6d050;
-                                    margin-right: -1px;">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoEPvvuhwVmeQk5SflMhusiojB5ud58g59Lw&usqp=CAU"
-                                            alt=""
-                                            style="height: 100px; width: 100px; border-radius: 100%; margin-top: 0.55em; display: block; margin-left: 0.4em; margin-bottom: 0.4em;">
-                                        <h3 style="color: #fff; margin-left: 15px;">Name of the Speaker</h3>
-                                    </div> -->
-                                    <!-- <p class="description">
+                                <div class="experiment" data-aos="fade-left">
 
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus,
-                                        mollis
-                                        rhoncus felis. Nulla consectetur pretium lacinia. Morbi pharetra, quam non
-                                        commodo
-                                        pulvinar, dui diam laoreet purus, vitae commodo ipsum lorem nec lacus. Etiam et
-                                        malesuada dolor. Integer consequat mauris in orci lobortis, non dictum sem
-                                        pharetra.
-                                        Donec ut lacus enim. Sed tempor interdum elementum.
-                                    <div class="btn">
-                                        <a href="https://docs.google.com/forms/u/0/" target="_blank"
-                                            class="btn-link" style="background-color: #a6d050; color: #fff; border: 3px;">Register here</a>
-                                    </div>
-                                    </p> -->
-                                    <img class="reveal" height="270px" width="470px"
+                                    <img id="green" class="reveal" width="470px" height="270px"
                                         src="green.png" alt="">
                                 </div>
                             </div>
